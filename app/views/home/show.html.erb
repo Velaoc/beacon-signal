@@ -162,8 +162,8 @@
           </div>
         <% end %>
 
-        <%= render "foundation/components/text_field", form: form, attribute: :name, label: "Name", type: :text, options: { placeholder: "Ada Lovelace", autocomplete: "name" } %>
-        <%= render "foundation/components/text_field", form: form, attribute: :email, label: "Work email", type: :email, options: { placeholder: "ada@company.com", autocomplete: "email", required: true } %>
+        <%= render "foundation/components/text_field", form: form, attribute: :name, label: "Name", type: :text, hint: nil, options: { placeholder: "Ada Lovelace", autocomplete: "name" } %>
+        <%= render "foundation/components/text_field", form: form, attribute: :email, label: "Work email", type: :email, hint: nil, options: { placeholder: "ada@company.com", autocomplete: "email", required: true } %>
 
         <div class="md-actions">
           <%= render "foundation/components/button", form: form, label: "Get early access", variant: "filled", type: "submit" %>
