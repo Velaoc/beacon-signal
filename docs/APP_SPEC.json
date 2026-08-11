@@ -1,0 +1,32 @@
+{
+  "name": "Beacon Signal",
+  "purpose": "Marketing landing page for the Beacon SaaS product: hero, features, pricing tiers, FAQ, and an email signup that stores leads for follow-up.",
+  "entities": [
+    {
+      "name": "Lead",
+      "relationships": [
+        "captured from the landing page signup form",
+        "viewable/manageable by the operator"
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Visit landing page",
+      "description": "Public root shows hero, features, pricing tiers, FAQ for Beacon."
+    },
+    {
+      "name": "Email signup",
+      "description": "Visitor enters name + email; the lead is validated and stored."
+    },
+    {
+      "name": "Manage leads",
+      "description": "Operator views captured leads in the admin area."
+    }
+  ],
+  "modules": [
+    "crm"
+  ],
+  "integrations": [],
+  "seed_demo": "Complete static content on the landing page (features, three pricing tiers, FAQ), plus a few sample leads visible in the admin area so the operator can see the capture working."
+}
