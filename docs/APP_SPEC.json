@@ -24,9 +24,7 @@
       "description": "Operator views captured leads in the admin area."
     }
   ],
-  "modules": [
-    "crm"
-  ],
+  "modules": [],
   "integrations": [],
-  "seed_demo": "Complete static content on the landing page (features, three pricing tiers, FAQ), plus a few sample leads visible in the admin area so the operator can see the capture working."
+  "seed_demo": "Complete static marketing content (hero, six features, three pricing tiers, FAQ) plus a dedicated public Lead model with a few sample leads seeded so the operator can see capture working in the admin area."
 }
