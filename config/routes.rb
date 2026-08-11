@@ -130,6 +130,10 @@ Rails.application.routes.draw do
     get "session", to: "sessions#show", as: :session
   end
 
-  # Minimal landing page until the M7 marketing set replaces it.
-    root "foundation/home#show"
+  # Public marketing landing page for Beacon (hero, features, pricing, FAQ,
+  # and the lead-capture signup). The foundation home remains reachable for
+  # signed-in users via /foundation.
+  root "home#show"
+  resource :leads, only: :create, path: "signup"
+  get "foundation", to: "foundation/home#show", as: :foundation_home
 end
