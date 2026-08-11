@@ -21,10 +21,6 @@ Marketing landing page for the Beacon SaaS product: hero, features, pricing tier
 
 - Lead
 
-## Included foundation modules
-
-- crm
-
 ## Run locally
 
 ```bash
@@ -37,7 +33,7 @@ Requires Ruby, PostgreSQL, and the usual Rails toolchain. See `bin/setup` if pre
 
 ## Demo
 
-Complete static content on the landing page (features, three pricing tiers, FAQ), plus a few sample leads visible in the admin area so the operator can see the capture working.
+Complete static marketing content (hero, six features, three pricing tiers, FAQ) plus a dedicated public Lead model with a few sample leads seeded so the operator can see capture working in the admin area.
 
 ## Deploy notes
 
